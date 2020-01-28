@@ -10,7 +10,7 @@ Build a todo app using Redux. This app does not require a Back-end to persist th
 A user should be able to:
 
 1. Create a ToDo
-2. a ToDo between completed and uncompleted
+2. Toggle a ToDo between completed and uncompleted
     - Clicking a non-completed ToDo should mark it as completed. Display the ToDo crossed out when completed.
     - Clicking a completed ToDo should mark the todo as active(not completed). Remove the crossing out.
 3. Filter by active(non-completed), completed, or all ToDos.
