@@ -8,11 +8,14 @@
 Build a todo app using Redux. This app does not require a Back-end to persist the data the redux store is enough for now. 
 
 A user should be able to:
-- Create a ToDo
-- Toggle a ToDo between completed and uncompleted
+
+1. Create a ToDo
+2. a ToDo between completed and uncompleted
   - Clicking a non-completed ToDo should mark it as completed. Display the ToDo crossed out when completed.
   - Clicking a completed ToDo should mark the todo as active(not completed). Remove the crossing out.
-- Filter by active(non-completed), completed, or all ToDos.
+3. Filter by active(non-completed), completed, or all ToDos.
+
+Address this in order. Set up your store, reducer an action for creating a todo first and verify it works then move to point 2 and 3.
 
 ## Todo
 A todo object should have the following properties.
