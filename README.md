@@ -11,8 +11,8 @@ A user should be able to:
 
 1. Create a ToDo
 2. a ToDo between completed and uncompleted
-  - Clicking a non-completed ToDo should mark it as completed. Display the ToDo crossed out when completed.
-  - Clicking a completed ToDo should mark the todo as active(not completed). Remove the crossing out.
+    - Clicking a non-completed ToDo should mark it as completed. Display the ToDo crossed out when completed.
+    - Clicking a completed ToDo should mark the todo as active(not completed). Remove the crossing out.
 3. Filter by active(non-completed), completed, or all ToDos.
 
 Address this in order. Set up your store, reducer an action for creating a todo first and verify it works then move to point 2 and 3.
