@@ -11,7 +11,7 @@ A user should be able to:
 - Create a ToDo
 - Toggle a ToDo between completed and uncompleted
   - Clicking a non-completed ToDo should mark it as completed. Display the ToDo crossed out when completed.
-  - Clicking a completed ToDo should mark is active(not completed). Remove the crossing out.
+  - Clicking a completed ToDo should mark the todo as active(not completed). Remove the crossing out.
 - Filter by active(non-completed), completed, or all ToDos.
 
 ## Todo
@@ -28,11 +28,13 @@ A todo object should have the following properties.
 Your state to store this information would look like:
 ```js
 {
+  nextTodoId: 1,
   todos: [],
   visibilityFilter: "all" // One of "all", "completed" or "active"
 }
 ```
 
+* `nexTodoId` is just a counter you will use to assign a simple `id` to your todos. Each time a new todo is added use the current value of `nextTodoId` to give your todo that `id` and increment `nextTodoId` there after for next time.
 * `todos` keeps todo objects. 
 * When the user click's the button Completed you will set the `visibilityFilter` and filter `todos` for only todos that are completed and display those completed todos.
 * When the user click's the button Active you will filter `todos` for only todos that are **not** completed and display those non-completed todos to the user.
