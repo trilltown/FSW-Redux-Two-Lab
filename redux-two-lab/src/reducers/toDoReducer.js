@@ -19,6 +19,6 @@ const toDoReducer = (state = initialState, action) => {
     Object.freeze(state);
     const newState = { ...state };
     switch (action.type) {
-        case 
+        
     }
 }
